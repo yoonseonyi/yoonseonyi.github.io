@@ -104,7 +104,7 @@ line-height: 1.9em;
 
 /* Portfolios */
 .portfolio{
-padding: 100px 0px 0px 0px;
+padding: 50px 0px 0px 0px;
 }
 
 #portfoliointroduce{
@@ -129,6 +129,7 @@ width: 80%;
 -moz-column-count: 2;
 -webkit-column-count: 2;
 column-count: 2;
+margin: 10px 0px 100px 0px;
 }
 
 .projectname{
@@ -821,6 +822,23 @@ color: white;
     max-width:600px;
     margin: 40px auto 70px auto;
     line-height: 1.8em;
+    }
+
+  .portfolio_image{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column{
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    margin: 10px 0px 100px 0px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
