@@ -461,7 +461,7 @@ position: absolute;
 left: 0; bottom: 0;	
 width: 845px;	
 }
-.image_title a {
+.image_title p {
 display: block;
 color: #fff;
 text-decoration: none;
