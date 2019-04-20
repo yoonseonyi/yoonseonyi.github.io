@@ -45,25 +45,25 @@
     <div id="target"></div>
     <div class="contact_container" id="contact_container">  
       <form id="contact" method="post">
-        <h3>Contact Form</h3>
-        <h4>Contact me for additional info or opportunity!</h4>
+        <h1>Contact Form</h1>
+        <h2>Contact me for additional info or opportunity!</h2>
         <fieldset>
-          <input placeholder="Your name" id="name" type="text" tabindex="1" required>
+          <input aria-label="name" placeholder="Your name" id="name" type="text" tabindex="1" required>
         </fieldset>
         <fieldset>
-          <input placeholder="Your Email Address" id="email" type="email" tabindex="2" required title="must be alphanumeric in 6-12 chars">
+          <input aria-label="email" placeholder="Your Email Address" id="email" type="email" tabindex="2" required title="must be alphanumeric in 6-12 chars">
         </fieldset>
         <fieldset>
-          <input placeholder="Your Phone Number" id="phone" type="tel" tabindex="3" required>
+          <input aria-label="phonenumber" placeholder="Your Phone Number (optional)" id="phone" type="tel" tabindex="3">
         </fieldset>
         <fieldset>
-          <input placeholder="Your Web Site (optional)" id="website" type="url" tabindex="4">
+          <input aria-label="website" placeholder="Your Web Site (optional)" id="website" type="url" tabindex="4">
         </fieldset>
         <fieldset>
-          <textarea placeholder="Type your message here...." id="message" tabindex="5" required></textarea>
+          <textarea aria-label="message" placeholder="Type your message here...." id="message" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          <button aria-label="submit" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
       </form>
     </div>
