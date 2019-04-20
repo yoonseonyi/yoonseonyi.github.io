@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131815092-3"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-131815092-3');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/portfolio_logo.png" />
+        <link rel="stylesheet" type="text/css" href="newstyle.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>Redesigning the Keyboard Change Interaction</title>
+    </head>
+    <body>
+        <a href="#maincontent" class="skip">skip to main content</a>
+        <div class="navbar" id="navbar">
+                <a class="active" href="keyboard.html">Keyboard Redesign</a>
+                <a href="mcycle.html">MCycle</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="newindex.html">Home</a>
+                <a id="logo" href="newindex.html"><img id="logoimage" src="Alexa YoonSeon Yi.png" alt="Logo" /></a>
+                <a href="javascript:void(0);"; class="icon" onclick="Hamburger()">
+                <i class="fa fa-bars"></i></a>
+        </div>
+        <main>
+            <h1 id="keyboardtitle">Keyboard Interaction Redesign</h1>
+            <div class="mcyclesubtitle">
+                <p>Language change function on the iOS keyboard is redesigned</p>
+                <p>to provide an inclusive user experience</p>
+            </div>
+            
+            <div class="parallax_keyboard" alt = "Keyboard"></div>
+            <div class="projectcontent">
+                <div class="h">Overview</div>
+                    <p class="projectcontent">This project aimed at improving the overall user experience of keyboard change interaction within IOS for individuals who are right-handed, have relatively small hands and speak multiple languages. The ultimate goal was to recreate a design that enables an intuitive interaction between users and the interface. This self-initiated project simply started from my experience with Apple’s keyboard design.</p>
+                    <p class="projectcontent">As a multi-language speaker/learner and right-handed user, I found it disturbing in terms of the accuracy and speed when typing. It was inefficient and inconvenient to change the keyboard language accordingly.</p> 
+                <div class="h">Why it Matters</div>
+                    <p class="projectcontent">In modern times, the power of information and globalization has led to an increase in the number of bilingual speakers, or even polyglots. Such change should be concerned with designing everyday technologies, for they are used by diverse types of users. In that sense, when designing mobile operating systems and user interfaces, it is crucial for companies to adopt a design that could embrace diversity.</p> 
+                <div class="h">Current Design Problems</div> 
+                    <div class="projectcontent">
+                    <p class="emphasize">1. Automated function to return to the previous language you used.</p>
+                        <p class="projectcontent">iPhone remembers the previous language you used and automatically brings that language when you hit the globe, a button for changing the language. This function can be very useful when you speak less than three languages; however, it gets complicated once you begin using more than three languages. For example, let’s say you are writing a note in English in the beginning, then change your keyboard to Russian. Writing in Russian, you need to briefly note something in Chinese. You hit the globe button, but it will lead you to the English keyboard instead of a Chinese keyboard. This can be frustrating for users to quickly get to the keyboard they want to use.</p> 
+                    <p class="emphasize">2. Must be keeping your eye on the screen The Globe Button</p> 
+                        <p class="projectcontent">In fact, this frustration can be alleviated by holding the globe button and opening a list of languages you have added. You can select the language without getting confused with the automated language change function. Nonetheless, this interface still does not completely guarantee the better user experience for the following reasons. First, a user must pay attention to the screen to select the specific language from the list. Second, it requires even more attention for multilingual users who speak more than two languages.</p> 
+                    </div>
+                <div class="h">Research</div> 
+                    <p class="projectcontent">Through research, I learned that the percentage of world bilinguals is higher than I expected:…In many countries that percentage is even higher—for instance, 99 percent of Luxembourgers and 95 percent of Latvians speak more than one language. Even in the United States, which is widely considered to be monolingual, one-fifth of those over the age of five reported speaking a language other than English at home in 2007, an increase of 140 percent since 1980. The Associated Press reports that up to 66 percent of the world’s children are raised bilingual…It indicates that many people may share my unpleasant experience with using mobile keyboards. An interesting fact discovered through interviews was that the confusion still arose for the monolingual. As English is a global language, keyboard settings of non-native English speakers usually consist of at least three different keyboards: English, their native languages, and Emoji. In brief, mere three keyboards create enough confusion for users to change the keyboard when typing.</p> 
+                    <p class="projectcontent">Lastly, I conducted contextual interviews to see how others interact with the keyboard interface. I found two additional issues throughout observation: Right-handed individuals who have relatively smaller hands struggle more than the left-handed to hit the language change button, as it is located in the far left corner. Even people with the average size of hands struggle to reach the button when using bigger phones such as iPhone plus.</p> 
+                <div class="h">Sketch</div> 
+            </div>
+            <img class="content_img" src="images/Sktech_optimized.jpg" alt = "sketch"/>
+            <div class="projectcontent">
+                <div class="h">Iteration</div>
+                    <p class="projectcontent">The initial keyboard layout moved altogether when scrolling, but the changing motion looked as if a user were swiping pictures. Thus, I have fixed the overlapping keys on the screen to achieve a smoother transition and provide cohesive feeling.</p> 
+                <div class="projectcontent">
+                    <div class="h">Final Design</div> 
+                        <p class="projectcontent">After receiving feedback on the initial prototype, I aimed to cover the following issues in the final design:</p> 
+                        <p class="emphasize">1. No need to look for a little button or pay attention to the screen when changing languages</p>
+                        <br>
+                        <p class="emphasize">2. Quicker with precision and more intuitive interaction</p>
+                        <br>
+                        <p class="emphasize">3. Satisfy all users regardless of the left and right handed and size of hands</p>
+                </div>
+                <div class = "projectcontent">
+                    <div class="h">User Testing Insights</div> 
+                    <p class="projectcontent">I have asked feedback from my peers and mostly received positive responses with some concerns. The users with bigger iPhones were especially satisfied with the redesign. Also, they found it extremely speedy when typing in two or more languages at the same time. Another positive feedback was that it was accessible and intuitive to use for both the disabled and the elderly. On the other hand, one suggested that because she had to pass through every language to get to the one she wanted, she found it little inconvenient. In this case, unfortunately, the original globe button should be utilized. Another mentioned a possible confusion from the similarity of certain keyboards, such as Spanish and English, which share many English alphabets.</p>
+                </div>
+                <div class="projectcontent">
+                <div class="h">Reflections</div> 
+                    <p class="projectcontent">1. My experience is especially generalizable to females and right-handers. Half of the iPhone users are women, who may find it even more difficult to interact with the system compared to men because the average size of women’s hands is smaller than that of men’s. Thus, it is harder for women to navigate the screen and tap elements on the left corners of the screen in one-hand with a thumb. In regards to left-handed users, the globe button may be easily accessible as they do not need to reach out their thumbs. Again, for right-handed users, it is relatively difficult to reach out to the left side of the screen. For users with plus size iPhones, especially, the inconvenience of switching languages would be maximized.</p>
+                    <p class="projectcontent">2. My design challenge reveals the limitations and social implications of the original keyboard design. Throughout the whole process, I have come to understand the value of universal designs for inclusive mobile experiences. I have specifically selected IOS in this project as I discovered this problem with my current iPhone. But, I have also found similar interface and layouts in other operating systems throughout the research. I believe that this slight change can provide a better everyday user experience for smartphone users all over the world. I hope that this case study can be used as an indicator in the development of a universal keyboard design for mobile phones.</p>
+                </div>
+            </div>
+        </main>
+    <script type = "text/javascript" src="keyboard.js"></script>
+    </body>
+    <footer class="footer">
+        <a id="footerlogo" href="https://www.linkedin.com/in/alexayi/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+        <p class="footertext">© 2019 by Alexa YoonSeon Yi.</p>
+    </footer>
+</html>

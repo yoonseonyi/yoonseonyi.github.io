@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131815092-3"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-131815092-3');
+  </script>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/portfolio_logo.png" />
+  <link rel="stylesheet" type="text/css" href="newstyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>About Me</title>
+</head>
+<body>
+    <a href="#maincontent" class="skip">skip to main content</a>
+      <div class="navbar" id="navbar">
+        <a href="keyboard.html">Keyboard Redesign</a>
+        <a href="mcycle.html">MCycle</a>
+        <a class="active" href="aboutme.html">About Me</a>
+        <a href="newindex.html">Home</a>
+        <a id="logo" href="newindex.html"><img id="logoimage" src="Alexa YoonSeon Yi.png" alt="Logo" /></a>
+        <a href="javascript:void(0);"; class="icon" onclick="Hamburger()">
+        <i class="fa fa-bars"></i></a>
+      </div>
+    <main>
+    <h1 id="aboutmetitle"> About Me </h1>
+<!-- <img class="profile" src="images/YoonSeon_Yi.png" alt = "profile picture"/> -->
+
+    <div class ="aboutbg">
+      <br>
+      <p id = "aboutbgsubtitle">   I am Alexa, a professional in the field of HCI and UX.
+      <br>
+      <br>
+      <p>   Hi. I am a UX designer/UX researcher seeking opportunities to work in diverse environments. My interest in UX design stems from my passion for understanding the human mind and behaviors through the basis of my background in a beral arts education.</p>
+      <br>
+      <p>   Also coming from the field of business economics, I tackle problems from a multifaceted perspective and deliver best practices for design solutions. I strive to make better services, systems, and products for users as a bridge between technology and people.</p>
+      <br>
+      <p>   I am a first-year masters student at the University of Michigan School of Information (UMSI) with HCI and UX specializations. I am currently looking for an internship for Summer 2019 to explore and apply what I have learned throughout the last few years and have fun! Want to work together or share some fun ideas? Just fill out the form below and shoot me a message.</p>
+    </div>
+    <div id="target"></div>
+    <div class="contact_container" id="contact_container">  
+      <form id="contact" action="" method="post">
+        <h3>Contact Form</h3>
+        <h4>Contact me for additional info or opportunity!</h4>
+        <fieldset>
+          <input placeholder="Your name" id="name" type="text" tabindex="1" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" id="email" type="email" tabindex="2" required title="must be alphanumeric in 6-12 chars">
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" id="phone" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site (optional)" id="website" type="url" tabindex="4">
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your message here...." id="message" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="callout">
+      <div class="callout-header">Contact Form <br>Down Below</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p><a id="link" href="#target">Click</a> to go straight to the contact form.</p>
+      </div>
+    </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type = "text/javascript" src="aboutme.js"></script>
+
+</body>
+<footer class="footer">
+  <a id="footerlogo" href="https://www.linkedin.com/in/alexayi/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+  <p class="footertext">© 2019 by Alexa YoonSeon Yi.</p>
+</footer>
+</html>
