@@ -17,6 +17,7 @@
         <title>Redesigning the Keyboard Change Interaction</title>
     </head>
     <body>
+        <header>
         <a href="#maincontent" class="skip">skip to main content</a>
         <div class="navbar" id="navbar">
                 <a class="active" href="keyboard.html">Keyboard Redesign</a>
@@ -27,9 +28,10 @@
                 <a href="javascript:void(0);"; class="icon" onclick="Hamburger()">
                 <i class="fa fa-bars"></i></a>
         </div>
+        </header>
         <main>
             <h1 id="keyboardtitle">Keyboard Interaction Redesign</h1>
-            <div class="mcyclesubtitle">
+            <div class="mcyclesubtitle" id="maincontent">
                 <p>Language change function on the iOS keyboard is redesigned</p>
                 <p>to provide an inclusive user experience</p>
             </div>
@@ -78,9 +80,9 @@
             </div>
         </main>
     <script type = "text/javascript" src="keyboard.js"></script>
-    </body>
     <footer class="footer">
-        <a id="footerlogo" href="https://www.linkedin.com/in/alexayi/" target="_blank"><i class="fab fa-linkedin" ></i></a>
-        <p class="footertext">© 2019 by Alexa YoonSeon Yi.</p>
+            <a aria-label="linkedin" id="footerlogo" href="https://www.linkedin.com/in/alexayi/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+            <p class="footertext">© 2019 by Alexa YoonSeon Yi.</p>
     </footer>
+    </body>
 </html>
